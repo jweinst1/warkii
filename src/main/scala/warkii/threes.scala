@@ -9,4 +9,6 @@ object Three {
 	  */
 	def apply():String = ""
 
+	def obj_act_adv_p():String = ""
+	
 }
