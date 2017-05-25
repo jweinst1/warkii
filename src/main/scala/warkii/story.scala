@@ -8,7 +8,9 @@ object Story {
 	  *
 	  */
 	def apply():String = Sampler.choice(
-		pat_222
+		pat_222,
+		pat_33,
+		pat_132
 	)
 
 	/** Method to produce 4 X 2 synthesis
@@ -27,13 +29,13 @@ object Story {
 	/** Method to produce a 3 x 3 synthesis
 	  *
 	  */
-	def pat_33():String = ""
+	def pat_33():String = s"${Three()}, ${Three()}"
 	def pat_321():String = ""
 	def pat_213():String = ""
 	def pat_231():String = ""
 	def pat_123():String = ""
 	def pat_312():String = ""
-	def pat_132():String = ""
+	def pat_132():String = s"${One()} ${Three()}, ${Two()}"
 
 	/** Method to produce 2 X 1 X 1 X 2 synthesis
 	  *
