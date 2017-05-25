@@ -1,0 +1,42 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/Josh/scalaprojects/warkii/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 575507be, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes:/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/target/scala-2.12/classes[0m
+[0m[[33mwarn[0m] [0mthere were 15 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.389779773 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	det_obj_ex, act_act_s, act_act_p.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /Users/Josh/scalaprojects/warkii/src/main/scala/warkii/story.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
