@@ -16,7 +16,7 @@ object Tweet {
 		var post:String = ""
 		for(_ <- 1 to amount) {
 			post = Story()
-			twitter.updateStatus(Story())
+			twitter.updateStatus(post)
 			println(s"POSTED Story::= '$post'")
 			Thread.sleep(interval * 1000)
 		}
