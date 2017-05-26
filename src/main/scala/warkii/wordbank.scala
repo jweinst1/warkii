@@ -5,6 +5,19 @@ package warkii
   */
 object WordBank {
 
+	/** Singular to-be verbs
+	  *
+	  */
+	val to_be_s:Array[String] = Array(
+		"is",
+		"was"
+	)
+
+	val to_be_p:Array[String] = Array(
+		"are",
+		"were"
+	)
+
 	val pron_obj:Array[String] = Array(
 		"me",
 		"you",
@@ -63,6 +76,19 @@ object WordBank {
 		"round",
 		"squre"
 		)
+
+	/** Adjectives that aren't visual but ideal
+	  *
+	  */
+	val idea_adj:Array[String] = Array(
+		"strong",
+		"weak",
+		"powerful",
+		"superb",
+		"wonderful",
+		"thoughtful",
+		"mystical"
+	)
 
 	//singular object oriented nouns
 	val s_obj:Array[String] = Array(
@@ -272,4 +298,14 @@ object Det {
   */
 object Adv {
 	def apply():String = Sampler.arr(WordBank.adv)
+}
+
+/** Handles adjectives
+  *
+  */
+object Adj {
+	def apply():String = Sampler.choice(vis, idea)
+
+	def vis():String = Sampler.arr(WordBank.vis_adj)
+	def idea():String = Sampler.arr(WordBank.idea_adj)
 }

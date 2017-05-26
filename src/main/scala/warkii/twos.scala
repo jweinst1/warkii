@@ -7,7 +7,7 @@ object Two {
 	/** Top level caller for two word story-components
 	  *
 	  */
-	def apply():String = Sampler.choice(det_obj, des_obj, obj_act, act_act, adv_act)
+	def apply():String = Sampler.choice(det_obj, des_obj, obj_act, act_act, adv_act, adj_obj)
 	/** Generates a story component of a determiner and an object
 	  * @note obj refers to an object
 	  */
@@ -43,6 +43,11 @@ object Two {
 	def adv_act_past():String = s"${Adv()} ${Act.past()}"
 
 	def act_adv_past():String = s"${Act.past()} ${Adv()}"
+
+	def adj_obj():String = Sampler.choice(adj_obj_s, adj_obj_p)
+	def adj_obj_s():String = s"${Adj()} ${Obj.sing()}"
+	def adj_obj_p():String = s"${Adj()} ${Obj.plur()}"
+
 	def adv_des():String = ""
 	/** Generates a story component of a negator and action
 	  * @note a negator nullifies some next word
