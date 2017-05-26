@@ -9,6 +9,7 @@ object Story {
 	  */
 	def apply():String = Sampler.choice(
 		pat_222,
+		pat_231,
 		pat_33,
 		pat_132
 	)
@@ -32,8 +33,8 @@ object Story {
 	def pat_33():String = s"${Three()}, ${Three()}"
 	def pat_321():String = ""
 	def pat_213():String = ""
-	def pat_231():String = ""
-	def pat_123():String = ""
+	def pat_231():String = s"${Two()}, ${Three()}, ${One()}"
+	def pat_123():String = s"${One()} ${Two()}, ${Three()}"
 	def pat_312():String = ""
 	def pat_132():String = s"${One()} ${Three()}, ${Two()}"
 

@@ -5,6 +5,13 @@ package warkii
   */
 object WordBank {
 
+	val pron_obj:Array[String] = Array(
+		"me",
+		"you",
+		"him",
+		"her"
+	)
+
 	val pron_pos:Array[String] = Array(
 		"my",
 		"your",
@@ -59,7 +66,8 @@ object WordBank {
 
 	//singular object oriented nouns
 	val s_obj:Array[String] = Array(
-		"apple", 
+		"apple",
+		"leaf",
 		"plane", 
 		"plum", 
 		"fruit", 
@@ -75,7 +83,9 @@ object WordBank {
 		"bat",
 		"ball",
 		"table",
-		"tree"
+		"tree",
+		"beast",
+		"lord"
 		)
 
 	val p_obj:Array[String] = Array(
