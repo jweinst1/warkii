@@ -65,7 +65,7 @@ object WordBank {
 		"fruit", 
 		"vegetable", 
 		"wire",
-		"thread",
+		"stick",
 		"cable",
 		"fish",
 		"lion",
@@ -97,7 +97,11 @@ object WordBank {
 		"plants",
 		"dogs",
 		"animals",
-		"cats"
+		"cats",
+		"sticks",
+		"stones",
+		"leaves",
+		"branches"
 		)
 
 	val s_act:Array[String] = Array(
@@ -141,7 +145,12 @@ object WordBank {
 		"sat",
 		"ran",
 		"drifted",
-		"rose"
+		"rose",
+		"walked",
+		"moved",
+		"left",
+		"soared",
+		"torn"
 		)
 	/** Collection of adverbs
 	  *
