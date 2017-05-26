@@ -16,29 +16,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/Josh/.ivy2/local/org.twitter4j/twitter4j-core/3.0.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom (3.0.3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.pom(pom.original) (192ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/Josh/.ivy2/local/org.twitter4j/twitter4j-core/3.0.3/jars/twitter4j-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
-[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;4.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;4.0.4 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;4.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.twitter4j#twitter4j-core;4.0.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/Josh/.ivy2/local/org.twitter4j/twitter4j-core/4.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-core;4.0.4[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.twitter4j#twitter4j-core;4.0.4[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom (4.0.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.pom(pom.original) (171ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/Josh/.ivy2/local/org.twitter4j/twitter4j-core/4.0.4/jars/twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;4.0.4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [compile][0m
@@ -50,14 +50,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [runtime][0m
@@ -72,16 +72,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -364,7 +364,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
@@ -373,9 +373,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -394,7 +394,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
@@ -403,9 +403,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT [test-internal][0m
@@ -428,7 +428,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
@@ -441,9 +441,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.twitter4j#twitter4j-core;4.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.jweinst#warkii_2.12;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -859,12 +859,12 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar (402ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar (370ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar[0m
@@ -873,7 +873,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.14.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2922ms :: artifacts dl 422ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1900ms :: artifacts dl 386ms[0m
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT compile produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT runtime produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT test produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-test.xml[0m
@@ -887,5 +887,5 @@
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT docs produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT pom produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.jweinst#warkii_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/Josh/scalaprojects/warkii/target/resolution-cache/reports/com.jweinst-warkii_2.12-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2922ms resolve - 422ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1900ms resolve - 386ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

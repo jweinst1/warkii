@@ -9,5 +9,5 @@ lazy val root = (project in file(".")).
     )),
     name := "warkii",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += "org.twitter4j" % "twitter4j-core" % "3.0.3"
+    libraryDependencies += "org.twitter4j" % "twitter4j-core" % "4.0.4"
   )
