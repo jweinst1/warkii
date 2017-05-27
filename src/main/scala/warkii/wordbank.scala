@@ -139,7 +139,11 @@ object WordBank {
 		"leaves",
 		"branches",
 		"carrots",
-		"twigs"
+		"twigs",
+		"oaks",
+		"willows",
+		"maples",
+		"arches"
 		)
 
 	val s_act:Array[String] = Array(
