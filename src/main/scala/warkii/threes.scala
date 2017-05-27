@@ -7,7 +7,7 @@ object Three {
 	/** Top level caller
 	  *
 	  */
-	def apply():String = Sampler.choice(obj_3, obj_act_adv, det_obj_act)
+	def apply():String = Sampler.choice(obj_3, obj_act_adv, det_obj_act, adv_conj_adv)
 
 	def obj_act_adv():String = Sampler.choice(obj_act_adv_s, obj_act_adv_p, obj_act_adv_past)
 	def obj_act_adv_s():String = s"${Obj.sing()} ${Act.sing()} ${Adv()}"
@@ -24,4 +24,8 @@ object Three {
 	def det_obj_act_p():String = s"${Det.plur()} ${Obj.plur()} ${Act.plur()}"
 	def det_obj_act_p_past():String = s"${Det.plur()} ${Obj.plur()} ${Act.past()}"
 
+	/** Produces 3-length component of adv conj adv
+	  *
+	  */
+	def adv_conj_adv():String = s"${Adv()} ${Sampler.arr(WordBank.d_conj)} ${Adv()}"
 }

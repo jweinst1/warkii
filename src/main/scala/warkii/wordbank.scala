@@ -111,7 +111,8 @@ object WordBank {
 		"table",
 		"tree",
 		"beast",
-		"lord"
+		"lord",
+		"tissue"
 		)
 
 	val p_obj:Array[String] = Array(
@@ -143,7 +144,9 @@ object WordBank {
 		"oaks",
 		"willows",
 		"maples",
-		"arches"
+		"arches",
+		"cabbages",
+		"rats"
 		)
 
 	val s_act:Array[String] = Array(
