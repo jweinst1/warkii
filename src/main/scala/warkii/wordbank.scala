@@ -157,7 +157,11 @@ object WordBank {
 		"leaps",
 		"trots",
 		"looks",
-		"feels"
+		"feels",
+		"strokes",
+		"yelps",
+		"screams",
+		"gulps"
 		)
 
 	val p_act:Array[String] = Array(
