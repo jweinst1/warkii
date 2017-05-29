@@ -169,7 +169,12 @@ object WordBank {
 		"strokes",
 		"yelps",
 		"screams",
-		"gulps"
+		"gulps",
+		"dies",
+		"jumps",
+		"dives",
+		"leads",
+		"loves"
 		)
 
 	val p_act:Array[String] = Array(
@@ -185,7 +190,12 @@ object WordBank {
 		"squeeze",
 		"grasp",
 		"swim",
-		"play"
+		"play",
+		"die",
+		"jump",
+		"dive",
+		"lead",
+		"love"
 		)
 
 	/** Past tense actions
