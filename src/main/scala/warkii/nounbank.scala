@@ -85,7 +85,12 @@ object NounBank {
 		"villa",
 		"street",
 		"alley",
-		"park"
+		"park",
+		"mountain",
+		"pier",
+		"harbor",
+		"dock",
+		"city"
 	)
 
 	val places_p:Array[String] = Array(
@@ -98,7 +103,12 @@ object NounBank {
 		"villas",
 		"streets",
 		"alleys",
-		"parks"
+		"parks",
+		"mountains",
+		"piers",
+		"harbors",
+		"docks",
+		"cities"
 	)
 }
 
