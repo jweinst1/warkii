@@ -11,11 +11,12 @@ object Two {
 	/** Generates a story component of a determiner and an object
 	  * @note obj refers to an object
 	  */
-	def det_obj():String = Sampler.choice(det_obj_s, det_obj_p, det_obj_ex)
+	def det_obj():String = Sampler.choice(det_obj_s, det_obj_p, det_obj_ex, det_obj_q)
 	/** Synthesizes a det-obj pair but adds exclamation mark.
 	  *
 	  */
 	def det_obj_ex():String = s"${Sampler.choice(det_obj_s, det_obj_p)}!"
+	def det_obj_q():String = s"${Sampler.choice(det_obj_s, det_obj_p)}!?"
 	def det_obj_s():String = s"${Det.sing()} ${Obj.sing()}"
 	def det_obj_p():String = s"${Det.plur()} ${Obj.plur()}"
 
