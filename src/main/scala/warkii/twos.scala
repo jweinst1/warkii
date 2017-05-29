@@ -7,7 +7,7 @@ object Two {
 	/** Top level caller for two word story-components
 	  *
 	  */
-	def apply():String = Sampler.choice(det_obj, des_obj, obj_act, act_act, adv_act, adj_obj, adv_des)
+	def apply():String = Sampler.choice(det_obj, des_obj, obj_act, act_act, adv_act, adj_obj, adv_des, neg_act)
 	/** Generates a story component of a determiner and an object
 	  * @note obj refers to an object
 	  */
@@ -53,9 +53,9 @@ object Two {
 	/** Generates a story component of a negator and action
 	  * @note a negator nullifies some next word
 	  */
-	def neg_act():String = ""
-	def neg_obj():String = ""
-	def neg_adv():String = ""
+	def neg_act():String = Sampler.choice(neg_act_p, neg_act_past)
+	def neg_act_p():String = s"${Sampler.arr(WordBank.negs)} ${Act.plur()}"
+	def neg_act_past():String = s"${Sampler.arr(WordBank.negs)} ${Act.past()}"
 	/** Generates a story component of a pronoun and action
 	  * @note pron refers to pronoun like I or You
 	  */

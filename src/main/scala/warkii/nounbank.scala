@@ -41,7 +41,9 @@ object NounBank {
 		"pear",
 		"banana",
 		"orange",
-		"coconut"
+		"coconut",
+		"fruit",
+		"berry"
 	)
 
 	val fruits_p:Array[String] = Array(
@@ -50,7 +52,9 @@ object NounBank {
 		"pears",
 		"bananas",
 		"oranges",
-		"coconuts"
+		"coconuts",
+		"fruit",
+		"berries"
 	)
 }
 

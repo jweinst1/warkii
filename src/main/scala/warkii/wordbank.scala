@@ -5,6 +5,12 @@ package warkii
   */
 object WordBank {
 
+	val negs:Array[String] = Array(
+		"don't",
+		"never",
+		"stop"
+	)
+
 	/** Singular to-be verbs
 	  *
 	  */
@@ -12,7 +18,9 @@ object WordBank {
 		"is",
 		"was"
 	)
-
+	/** Plural to-be verbs
+	  *
+	  */
 	val to_be_p:Array[String] = Array(
 		"are",
 		"were"
