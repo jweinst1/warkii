@@ -207,7 +207,12 @@ object WordBank {
 		"moved",
 		"left",
 		"soared",
-		"torn"
+		"torn",
+		"killed",
+		"slaughtered",
+		"demolished",
+		"wounded",
+		"healed"
 		)
 	/** Collection of adverbs
 	  *

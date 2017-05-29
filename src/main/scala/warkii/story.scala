@@ -13,7 +13,9 @@ object Story {
 		pat_33,
 		pat_132,
 		pat_213,
-		pat_2112
+		pat_2112,
+		pat_321,
+		pat_312
 	)
 
 	/** Method to produce 4 X 2 synthesis
@@ -33,11 +35,11 @@ object Story {
 	  *
 	  */
 	def pat_33():String = s"${Three()}, ${Three()}"
-	def pat_321():String = ""
+	def pat_321():String = s"${Three()}, ${Two()}, ${One()}"
 	def pat_213():String = s"${Two()}, ${One()} ${Three()}"
 	def pat_231():String = s"${Two()}, ${Three()}, ${One()}"
 	def pat_123():String = s"${One()} ${Two()}, ${Three()}"
-	def pat_312():String = ""
+	def pat_312():String = s"${Three()}, ${One()} ${Two()}"
 	def pat_132():String = s"${One()} ${Three()}, ${Two()}"
 
 	/** Method to produce 2 X 1 X 1 X 2 synthesis

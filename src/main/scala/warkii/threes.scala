@@ -7,7 +7,7 @@ object Three {
 	/** Top level caller
 	  *
 	  */
-	def apply():String = Sampler.choice(obj_3, obj_act_adv, det_obj_act, adv_conj_adv, obj_p_adv_act_past, obj_p_tobe_adj)
+	def apply():String = Sampler.choice(obj_3, obj_act_adv, det_obj_act, adv_conj_adv, obj_p_adv_act_past, obj_p_tobe_adj, past_conj_past)
 
 	def obj_act_adv():String = Sampler.choice(obj_act_adv_s, obj_act_adv_p, obj_act_adv_past)
 	def obj_act_adv_s():String = s"${Obj.sing()} ${Act.sing()} ${Adv()}"
@@ -34,4 +34,6 @@ object Three {
 	def obj_p_adv_act_past():String = s"${Obj.plur()} ${Adv()} ${Act.past()}"
 
 	def obj_p_tobe_adj():String = s"${Obj.plur()} ${Sampler.arr(WordBank.to_be_p)} ${Adj()}"
+
+	def past_conj_past():String = s"${Act.past()} ${Sampler.arr(WordBank.d_conj)} ${Act.past()}"
 }

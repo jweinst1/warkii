@@ -18,7 +18,14 @@ object NounBank {
 		"turtle",
 		"rabbit",
 		"chicken",
-		"bunny"
+		"bunny",
+		"lizard",
+		"rhino",
+		"eagle",
+		"pelican",
+		"puppy",
+		"giraffe",
+		"dolphin"
 	)
 
 	val animals_p:Array[String] = Array(
@@ -32,7 +39,14 @@ object NounBank {
 		"turtles",
 		"rabbits",
 		"chickens",
-		"bunnies"
+		"bunnies",
+		"lizards",
+		"rhinoes",
+		"eagles",
+		"pelicans",
+		"puppies",
+		"giraffes",
+		"dolphins"
 	)
 
 	val fruits_s:Array[String] = Array(
@@ -43,7 +57,9 @@ object NounBank {
 		"orange",
 		"coconut",
 		"fruit",
-		"berry"
+		"berry",
+		"plum",
+		"peach"
 	)
 
 	val fruits_p:Array[String] = Array(
@@ -54,7 +70,35 @@ object NounBank {
 		"oranges",
 		"coconuts",
 		"fruit",
-		"berries"
+		"berries",
+		"plums",
+		"peaches"
+	)
+
+	val places_s:Array[String] = Array(
+		"house",
+		"cottage",
+		"hut",
+		"tent",
+		"river",
+		"cave",
+		"villa",
+		"street",
+		"alley",
+		"park"
+	)
+
+	val places_p:Array[String] = Array(
+		"houses",
+		"cottages",
+		"huts",
+		"tents",
+		"rivers",
+		"caves",
+		"villas",
+		"streets",
+		"alleys",
+		"parks"
 	)
 }
 
@@ -65,12 +109,16 @@ object Noun {
 	/** Selects from several buckets of single nouns
 	  *
 	  */
-	def sing():String = Sampler.choice(animals_s, fruits_s)
-	def plur():String = Sampler.choice(animals_p, fruits_p)
+	def sing():String = Sampler.choice(animals_s, fruits_s, places_s)
+	def plur():String = Sampler.choice(animals_p, fruits_p, places_p)
 
 	def animals_s():String = Sampler.arr(NounBank.animals_s)
 	def animals_p():String = Sampler.arr(NounBank.animals_p)
 
 	def fruits_s():String = Sampler.arr(NounBank.fruits_s)
 	def fruits_p():String = Sampler.arr(NounBank.fruits_p)
+
+	def places_s():String = Sampler.arr(NounBank.places_s)
+	def places_p():String = Sampler.arr(NounBank.places_p)
+
 }
