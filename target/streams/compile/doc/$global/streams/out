@@ -6,15 +6,19 @@
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes:/Users/Josh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	dummy_c7d8f9a2[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/action.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/call.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/main.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/nounbank.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/ones.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/package.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/rootwords.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/story.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/threes.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twit.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/twos.scala[0m
 [0m[[0mdebug[0m] [0m	/Users/Josh/scalaprojects/warkii/src/main/scala/warkii/wordbank.scala[0m
-[0m[[33mwarn[0m] [0mthere were 16 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mthere were 74 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
 [0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

@@ -110,6 +110,28 @@ object NounBank {
 		"docks",
 		"cities"
 	)
+	/** unmeasurable mass nouns
+	  *
+	  */
+	val mass_s:Array[String] = Array(
+		"blood",
+		"water",
+		"steel",
+		"iron",
+		"steam",
+		"fire",
+		"dirt",
+		"earth",
+		"mud",
+		"grass",
+		"darkness",
+		"sand",
+		"air",
+		"wind",
+		"thunder",
+		"lightning",
+		"lava"
+	)
 }
 
 /** Contains methods to access noun bank
@@ -119,7 +141,7 @@ object Noun {
 	/** Selects from several buckets of single nouns
 	  *
 	  */
-	def sing():String = Sampler.choice(animals_s, fruits_s, places_s)
+	def sing():String = Sampler.choice(animals_s, fruits_s, places_s, mass_s)
 	def plur():String = Sampler.choice(animals_p, fruits_p, places_p)
 
 	def animals_s():String = Sampler.arr(NounBank.animals_s)
@@ -130,5 +152,7 @@ object Noun {
 
 	def places_s():String = Sampler.arr(NounBank.places_s)
 	def places_p():String = Sampler.arr(NounBank.places_p)
+
+	def mass_s():String = Sampler.arr(NounBank.mass_s)
 
 }
