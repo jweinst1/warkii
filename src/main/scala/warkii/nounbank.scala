@@ -130,7 +130,11 @@ object NounBank {
 		"wind",
 		"thunder",
 		"lightning",
-		"lava"
+		"lava",
+		"rock",
+		"stone",
+		"marble",
+		"gravel"
 	)
 }
 
