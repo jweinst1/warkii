@@ -33,6 +33,13 @@ object WordBank {
 		"her"
 	)
 
+	val pron_act:Array[String] = Array(
+		"he",
+		"she",
+		"they",
+		"I"
+	)
+
 	val pron_pos:Array[String] = Array(
 		"my",
 		"your",
