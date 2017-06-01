@@ -134,7 +134,12 @@ object NounBank {
 		"rock",
 		"stone",
 		"marble",
-		"gravel"
+		"gravel",
+		"ice",
+		"dirt",
+		"dust",
+		"grain",
+		"salt"
 	)
 }
 
